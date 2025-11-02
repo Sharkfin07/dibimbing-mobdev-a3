@@ -1,0 +1,129 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Editor / IDE
+# -------------------------
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+
+# -------------------------
+# Node
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+pnpm-lock.yaml
+
+# Environment
+.env
+.env.*.local
+.env.local
+.env.production.local
+.env.test.local
+.local
+
+# -------------------------
+# Android / Java / Kotlin
+# -------------------------
+/.gradle/
+**/build/
+local.properties
+*.keystore
+*.jks
+captures/
+output.json
+
+# Android Studio
+/.idea/
+*.iml
+
+# -------------------------
+# Flutter / Dart
+# -------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+generated_plugin_registrant.dart
+
+# Flutter iOS
+ios/Flutter/.last_build_id
+
+# -------------------------
+# iOS / Xcode
+# -------------------------
+Pods/
+Podfile.lock
+DerivedData/
+*.xcworkspace
+*.xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+*.pbxuser
+*.mode1v3
+*.perspectivev3
+*.moved-aside
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# Xcode signing
+*.mobileprovision
+*.cer
+*.p12
+
+# -------------------------
+# React Native specifics
+# -------------------------
+android/app/build/
+android/app/*.keystore
+ios/build/
+
+# -------------------------
+# Misc / Logs / Coverage
+# -------------------------
+*.log
+*.log.*
+coverage/
+.nyc_output/
+.expo/
+
+# -------------------------
+# JetBrains
+# -------------------------
+*.iml
+.idea/
+out/
+
+# -------------------------
+# OS files
+# -------------------------
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# -------------------------
+# Sensitive files
+# -------------------------
+*.keystore
+*.jks
+release.keystore
+key.properties
+
+# End of file
+
